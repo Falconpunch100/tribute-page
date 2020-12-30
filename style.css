@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(172, 209, 172);
+}
+
+#img-div {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 400px) {
+    #img-div {
+        height: auto;
+        max-width: auto;
+    }
+  }
